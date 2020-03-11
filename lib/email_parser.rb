@@ -13,5 +13,8 @@ class EmailAddressParser
   puts newEmails =  @emails.split.collect {|address| address.split(', ')}
   newEmails = newEmails.uniq 
   newEmails
+
+
+
   end
 end
