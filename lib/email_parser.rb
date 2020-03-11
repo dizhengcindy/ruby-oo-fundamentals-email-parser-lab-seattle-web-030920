@@ -10,7 +10,7 @@ class EmailAddressParser
   attr_accessor :emails
   
   def parse
-  puts @emails.split.collect {|address| address.split(', ')}
-   
+  newEmails =  @emails.split.collect {|address| address.split(', ')}
+  newEmails = newEmails. 
   end
 end
