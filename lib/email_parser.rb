@@ -10,6 +10,7 @@ class EmailAddressParser
   attr_accessor :emails
   
   def parse
-    @emails.split
+   @emails =  @emails.split
+   @emails = @emails. split(/, /)
   end
 end
