@@ -11,6 +11,7 @@ class EmailAddressParser
   
   def parse
   newEmails =  @emails.split.collect {|address| address.split(', ')}
-  newEmails = newEmails. 
+  newEmails = newEmails.uniq 
+  newEmails
   end
 end
